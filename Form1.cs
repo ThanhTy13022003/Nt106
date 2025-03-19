@@ -18,7 +18,7 @@ namespace Caro
         public Form1()
         {
             InitializeComponent();
-            ChessBoard = new ChessBoardManager(pnlChessBoard);// truyền pannel của form1 vào để add button
+            ChessBoard = new ChessBoardManager(pnlChessBoard,txtPlayerName,pcbMark);// truyền pannel của form1 vào để add button
             ChessBoard.DrawChessBoard();
         }
 
