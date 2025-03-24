@@ -1,6 +1,6 @@
 ﻿namespace Caro
 {
-    partial class Form2
+    partial class SignUp
     {
         /// <summary>
         /// Required designer variable.
@@ -38,6 +38,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.show = new System.Windows.Forms.CheckBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -94,7 +95,7 @@
             // 
             this.mail.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.mail.ForeColor = System.Drawing.SystemColors.ControlDark;
-            this.mail.Location = new System.Drawing.Point(398, 173);
+            this.mail.Location = new System.Drawing.Point(398, 164);
             this.mail.Multiline = true;
             this.mail.Name = "mail";
             this.mail.Size = new System.Drawing.Size(223, 38);
@@ -105,23 +106,25 @@
             // 
             this.pw.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.pw.ForeColor = System.Drawing.SystemColors.ControlDark;
-            this.pw.Location = new System.Drawing.Point(398, 238);
+            this.pw.Location = new System.Drawing.Point(398, 220);
             this.pw.Multiline = true;
             this.pw.Name = "pw";
             this.pw.Size = new System.Drawing.Size(223, 38);
             this.pw.TabIndex = 6;
             this.pw.Text = "Password";
+            this.pw.UseSystemPasswordChar = true;
             // 
             // repw
             // 
             this.repw.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.repw.ForeColor = System.Drawing.SystemColors.ControlDark;
-            this.repw.Location = new System.Drawing.Point(398, 301);
+            this.repw.Location = new System.Drawing.Point(398, 274);
             this.repw.Multiline = true;
             this.repw.Name = "repw";
             this.repw.Size = new System.Drawing.Size(223, 38);
             this.repw.TabIndex = 7;
             this.repw.Text = "Re-password";
+            this.repw.UseSystemPasswordChar = true;
             // 
             // label1
             // 
@@ -143,6 +146,7 @@
             this.button1.TabIndex = 9;
             this.button1.Text = "Confirm";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // pictureBox1
             // 
@@ -155,12 +159,26 @@
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
-            // Form2
+            // show
+            // 
+            this.show.AutoSize = true;
+            this.show.BackColor = System.Drawing.Color.White;
+            this.show.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.show.Location = new System.Drawing.Point(510, 318);
+            this.show.Name = "show";
+            this.show.Size = new System.Drawing.Size(111, 19);
+            this.show.TabIndex = 10;
+            this.show.Text = "Show password";
+            this.show.UseVisualStyleBackColor = false;
+            this.show.CheckedChanged += new System.EventHandler(this.show_CheckedChanged);
+            // 
+            // SignUp
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.PeachPuff;
             this.ClientSize = new System.Drawing.Size(700, 422);
+            this.Controls.Add(this.show);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.repw);
@@ -172,8 +190,9 @@
             this.Controls.Add(this.fb);
             this.Controls.Add(this.pictureBox1);
             this.Font = new System.Drawing.Font("Times New Roman", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Name = "Form2";
+            this.Name = "SignUp";
             this.Text = "Form2";
+            this.Load += new System.EventHandler(this.Form2_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -191,5 +210,6 @@
         private System.Windows.Forms.TextBox repw;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.CheckBox show;
     }
 }

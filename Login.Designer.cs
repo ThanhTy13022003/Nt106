@@ -29,11 +29,10 @@
         private void InitializeComponent()
         {
             this.username = new System.Windows.Forms.TextBox();
-            this.password = new System.Windows.Forms.TextBox();
+            this.Txpassword = new System.Windows.Forms.TextBox();
             this.signin = new System.Windows.Forms.Button();
-            this.signup = new System.Windows.Forms.Button();
+            this.BTsignup = new System.Windows.Forms.Button();
             this.forgotpw = new System.Windows.Forms.Label();
-            this.remember = new System.Windows.Forms.CheckBox();
             this.show = new System.Windows.Forms.CheckBox();
             this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
@@ -50,17 +49,18 @@
             this.username.Text = "User Name or Email";
             this.username.TextChanged += new System.EventHandler(this.username_TextChanged);
             // 
-            // password
+            // Txpassword
             // 
-            this.password.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.password.ForeColor = System.Drawing.Color.Gray;
-            this.password.Location = new System.Drawing.Point(57, 195);
-            this.password.Multiline = true;
-            this.password.Name = "password";
-            this.password.Size = new System.Drawing.Size(342, 47);
-            this.password.TabIndex = 3;
-            this.password.Text = "Pass Word";
-            this.password.TextChanged += new System.EventHandler(this.password_TextChanged);
+            this.Txpassword.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Txpassword.ForeColor = System.Drawing.Color.Gray;
+            this.Txpassword.Location = new System.Drawing.Point(57, 195);
+            this.Txpassword.Multiline = true;
+            this.Txpassword.Name = "Txpassword";
+            this.Txpassword.Size = new System.Drawing.Size(342, 47);
+            this.Txpassword.TabIndex = 3;
+            this.Txpassword.Text = "Pass Word";
+            this.Txpassword.UseSystemPasswordChar = true;
+            this.Txpassword.TextChanged += new System.EventHandler(this.password_TextChanged);
             // 
             // signin
             // 
@@ -75,18 +75,18 @@
             this.signin.UseVisualStyleBackColor = false;
             this.signin.Click += new System.EventHandler(this.signin_Click);
             // 
-            // signup
+            // BTsignup
             // 
-            this.signup.BackColor = System.Drawing.Color.DarkSlateBlue;
-            this.signup.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.signup.ForeColor = System.Drawing.Color.White;
-            this.signup.Location = new System.Drawing.Point(246, 311);
-            this.signup.Name = "signup";
-            this.signup.Size = new System.Drawing.Size(153, 50);
-            this.signup.TabIndex = 5;
-            this.signup.Text = "Sign Up";
-            this.signup.UseVisualStyleBackColor = false;
-            this.signup.Click += new System.EventHandler(this.signup_Click);
+            this.BTsignup.BackColor = System.Drawing.Color.DarkSlateBlue;
+            this.BTsignup.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BTsignup.ForeColor = System.Drawing.Color.White;
+            this.BTsignup.Location = new System.Drawing.Point(246, 311);
+            this.BTsignup.Name = "BTsignup";
+            this.BTsignup.Size = new System.Drawing.Size(153, 50);
+            this.BTsignup.TabIndex = 5;
+            this.BTsignup.Text = "Sign Up";
+            this.BTsignup.UseVisualStyleBackColor = false;
+            this.BTsignup.Click += new System.EventHandler(this.BTsignup_Click);
             // 
             // forgotpw
             // 
@@ -99,20 +99,6 @@
             this.forgotpw.Size = new System.Drawing.Size(124, 19);
             this.forgotpw.TabIndex = 6;
             this.forgotpw.Text = "Forgot Password";
-            this.forgotpw.Click += new System.EventHandler(this.forgotpw_Click);
-            // 
-            // remember
-            // 
-            this.remember.AutoSize = true;
-            this.remember.BackColor = System.Drawing.Color.White;
-            this.remember.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.remember.Location = new System.Drawing.Point(57, 257);
-            this.remember.Name = "remember";
-            this.remember.Size = new System.Drawing.Size(119, 20);
-            this.remember.TabIndex = 7;
-            this.remember.Text = "Remember Me";
-            this.remember.UseVisualStyleBackColor = false;
-            this.remember.CheckedChanged += new System.EventHandler(this.remember_CheckedChanged);
             // 
             // show
             // 
@@ -149,11 +135,10 @@
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.show);
-            this.Controls.Add(this.remember);
             this.Controls.Add(this.forgotpw);
-            this.Controls.Add(this.signup);
+            this.Controls.Add(this.BTsignup);
             this.Controls.Add(this.signin);
-            this.Controls.Add(this.password);
+            this.Controls.Add(this.Txpassword);
             this.Controls.Add(this.username);
             this.Controls.Add(this.label1);
             this.DoubleBuffered = true;
@@ -168,11 +153,10 @@
 
         #endregion
         private System.Windows.Forms.TextBox username;
-        private System.Windows.Forms.TextBox password;
+        private System.Windows.Forms.TextBox Txpassword;
         internal System.Windows.Forms.Button signin;
-        internal System.Windows.Forms.Button signup;
+        internal System.Windows.Forms.Button BTsignup;
         private System.Windows.Forms.Label forgotpw;
-        private System.Windows.Forms.CheckBox remember;
         private System.Windows.Forms.CheckBox show;
         private System.Windows.Forms.Label label1;
     }
