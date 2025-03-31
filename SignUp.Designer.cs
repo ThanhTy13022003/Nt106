@@ -85,9 +85,8 @@
             this.username.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.username.ForeColor = System.Drawing.SystemColors.ControlDark;
             this.username.Location = new System.Drawing.Point(398, 111);
-            this.username.Multiline = true;
             this.username.Name = "username";
-            this.username.Size = new System.Drawing.Size(223, 38);
+            this.username.Size = new System.Drawing.Size(223, 27);
             this.username.TabIndex = 4;
             this.username.Text = "Username";
             // 
@@ -96,9 +95,8 @@
             this.mail.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.mail.ForeColor = System.Drawing.SystemColors.ControlDark;
             this.mail.Location = new System.Drawing.Point(398, 164);
-            this.mail.Multiline = true;
             this.mail.Name = "mail";
-            this.mail.Size = new System.Drawing.Size(223, 38);
+            this.mail.Size = new System.Drawing.Size(223, 27);
             this.mail.TabIndex = 5;
             this.mail.Text = "E-mail";
             // 
@@ -107,9 +105,8 @@
             this.pw.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.pw.ForeColor = System.Drawing.SystemColors.ControlDark;
             this.pw.Location = new System.Drawing.Point(398, 220);
-            this.pw.Multiline = true;
             this.pw.Name = "pw";
-            this.pw.Size = new System.Drawing.Size(223, 38);
+            this.pw.Size = new System.Drawing.Size(223, 27);
             this.pw.TabIndex = 6;
             this.pw.Text = "Password";
             this.pw.UseSystemPasswordChar = true;
@@ -119,9 +116,8 @@
             this.repw.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.repw.ForeColor = System.Drawing.SystemColors.ControlDark;
             this.repw.Location = new System.Drawing.Point(398, 274);
-            this.repw.Multiline = true;
             this.repw.Name = "repw";
-            this.repw.Size = new System.Drawing.Size(223, 38);
+            this.repw.Size = new System.Drawing.Size(223, 27);
             this.repw.TabIndex = 7;
             this.repw.Text = "Re-password";
             this.repw.UseSystemPasswordChar = true;

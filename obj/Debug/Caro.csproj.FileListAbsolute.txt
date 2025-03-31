@@ -8,6 +8,13 @@ C:\Users\tyn93\OneDrive\Desktop\nt106_DoAnMonHoc\DoAnMonHoc\Caro\Caro\obj\Debug\
 C:\Users\tyn93\OneDrive\Desktop\nt106_DoAnMonHoc\DoAnMonHoc\Caro\Caro\obj\Debug\Caro.csproj.CoreCompileInputs.cache
 C:\Users\tyn93\OneDrive\Desktop\nt106_DoAnMonHoc\DoAnMonHoc\Caro\Caro\obj\Debug\Caro.exe
 C:\Users\tyn93\OneDrive\Desktop\nt106_DoAnMonHoc\DoAnMonHoc\Caro\Caro\obj\Debug\Caro.pdb
+E:\NT106\DoAn\New folder\obj\Debug\Caro.csproj.AssemblyReference.cache
+E:\NT106\DoAn\New folder\obj\Debug\Caro.Form1.resources
+E:\NT106\DoAn\New folder\obj\Debug\Caro.Login.resources
+E:\NT106\DoAn\New folder\obj\Debug\Caro.Properties.Resources.resources
+E:\NT106\DoAn\New folder\obj\Debug\Caro.SignUp.resources
+E:\NT106\DoAn\New folder\obj\Debug\Caro.csproj.GenerateResource.cache
+E:\NT106\DoAn\New folder\obj\Debug\Caro.csproj.CoreCompileInputs.cache
 E:\NT106\DoAn\New folder\bin\Debug\Caro.exe.config
 E:\NT106\DoAn\New folder\bin\Debug\Caro.exe
 E:\NT106\DoAn\New folder\bin\Debug\Caro.pdb
@@ -145,13 +152,6 @@ E:\NT106\DoAn\New folder\bin\Debug\System.Security.Cryptography.Xml.xml
 E:\NT106\DoAn\New folder\bin\Debug\System.Text.Encodings.Web.xml
 E:\NT106\DoAn\New folder\bin\Debug\System.Threading.Tasks.Extensions.xml
 E:\NT106\DoAn\New folder\bin\Debug\System.ValueTuple.xml
-E:\NT106\DoAn\New folder\obj\Debug\Caro.csproj.AssemblyReference.cache
-E:\NT106\DoAn\New folder\obj\Debug\Caro.Form1.resources
-E:\NT106\DoAn\New folder\obj\Debug\Caro.Login.resources
-E:\NT106\DoAn\New folder\obj\Debug\Caro.Properties.Resources.resources
-E:\NT106\DoAn\New folder\obj\Debug\Caro.SignUp.resources
-E:\NT106\DoAn\New folder\obj\Debug\Caro.csproj.GenerateResource.cache
-E:\NT106\DoAn\New folder\obj\Debug\Caro.csproj.CoreCompileInputs.cache
 E:\NT106\DoAn\New folder\obj\Debug\Caro.csproj.Up2Date
 E:\NT106\DoAn\New folder\obj\Debug\Caro.exe
 E:\NT106\DoAn\New folder\obj\Debug\Caro.pdb

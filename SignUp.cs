@@ -2,6 +2,7 @@
 using System.Windows.Forms;
 using Firebase.Auth;
 
+
 namespace Caro
 {
     public partial class SignUp : Form
