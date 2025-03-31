@@ -124,7 +124,6 @@
             this.label1.Size = new System.Drawing.Size(168, 53);
             this.label1.TabIndex = 9;
             this.label1.Text = "Sign In";
-            this.label1.Click += new System.EventHandler(this.label1_Click_1);
             // 
             // usererro
             // 

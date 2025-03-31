@@ -126,9 +126,7 @@ E:\NT106\DoAn\New folder\bin\Debug\Microsoft.Extensions.ObjectPool.xml
 E:\NT106\DoAn\New folder\bin\Debug\Microsoft.Extensions.Options.xml
 E:\NT106\DoAn\New folder\bin\Debug\Microsoft.Extensions.Primitives.xml
 E:\NT106\DoAn\New folder\bin\Debug\Microsoft.Extensions.WebEncoders.xml
-E:\NT106\DoAn\New folder\bin\Debug\Microsoft.IdentityModel.Logging.pdb
 E:\NT106\DoAn\New folder\bin\Debug\Microsoft.IdentityModel.Logging.xml
-E:\NT106\DoAn\New folder\bin\Debug\Microsoft.IdentityModel.Tokens.pdb
 E:\NT106\DoAn\New folder\bin\Debug\Microsoft.IdentityModel.Tokens.xml
 E:\NT106\DoAn\New folder\bin\Debug\Microsoft.Net.Http.Headers.xml
 E:\NT106\DoAn\New folder\bin\Debug\Newtonsoft.Json.xml
@@ -137,7 +135,6 @@ E:\NT106\DoAn\New folder\bin\Debug\System.CodeDom.xml
 E:\NT106\DoAn\New folder\bin\Debug\System.Collections.Immutable.xml
 E:\NT106\DoAn\New folder\bin\Debug\System.Diagnostics.DiagnosticSource.xml
 E:\NT106\DoAn\New folder\bin\Debug\System.Formats.Asn1.xml
-E:\NT106\DoAn\New folder\bin\Debug\System.IdentityModel.Tokens.Jwt.pdb
 E:\NT106\DoAn\New folder\bin\Debug\System.IdentityModel.Tokens.Jwt.xml
 E:\NT106\DoAn\New folder\bin\Debug\System.Memory.xml
 E:\NT106\DoAn\New folder\bin\Debug\System.Net.Http.Formatting.xml
@@ -155,3 +152,13 @@ E:\NT106\DoAn\New folder\bin\Debug\System.ValueTuple.xml
 E:\NT106\DoAn\New folder\obj\Debug\Caro.csproj.Up2Date
 E:\NT106\DoAn\New folder\obj\Debug\Caro.exe
 E:\NT106\DoAn\New folder\obj\Debug\Caro.pdb
+E:\NT106\DoAn\New folder\bin\Debug\Microsoft.Bcl.Memory.dll
+E:\NT106\DoAn\New folder\bin\Debug\Microsoft.Bcl.TimeProvider.dll
+E:\NT106\DoAn\New folder\bin\Debug\Microsoft.IdentityModel.Abstractions.dll
+E:\NT106\DoAn\New folder\bin\Debug\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\NT106\DoAn\New folder\bin\Debug\System.Text.Json.dll
+E:\NT106\DoAn\New folder\bin\Debug\Microsoft.Bcl.Memory.xml
+E:\NT106\DoAn\New folder\bin\Debug\Microsoft.Bcl.TimeProvider.xml
+E:\NT106\DoAn\New folder\bin\Debug\Microsoft.IdentityModel.Abstractions.xml
+E:\NT106\DoAn\New folder\bin\Debug\Microsoft.IdentityModel.JsonWebTokens.xml
+E:\NT106\DoAn\New folder\bin\Debug\System.Text.Json.xml

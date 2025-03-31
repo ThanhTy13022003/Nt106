@@ -65,7 +65,6 @@
             this.gm.TabIndex = 2;
             this.gm.Text = "Login With Gmail";
             this.gm.UseVisualStyleBackColor = false;
-            this.gm.Click += new System.EventHandler(this.gm_Click);
             // 
             // sdt
             // 
@@ -78,7 +77,6 @@
             this.sdt.TabIndex = 3;
             this.sdt.Text = "Login With PhoneNumber";
             this.sdt.UseVisualStyleBackColor = false;
-            this.sdt.Click += new System.EventHandler(this.button3_Click);
             // 
             // username
             // 
@@ -188,7 +186,6 @@
             this.Font = new System.Drawing.Font("Times New Roman", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Name = "SignUp";
             this.Text = "Form2";
-            this.Load += new System.EventHandler(this.Form2_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

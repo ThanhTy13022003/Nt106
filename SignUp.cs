@@ -2,12 +2,11 @@
 using System.Windows.Forms;
 using Firebase.Auth;
 
-
 namespace Caro
 {
     public partial class SignUp : Form
     {
-        private string apiKey = "AIzaSyAtbgnNBlNDVe4tlvlXFf8lRVCeus8Dong"; 
+        private string apiKey = "AIzaSyAtbgnNBlNDVe4tlvlXFf8lRVCeus8Dong";
 
         public SignUp()
         {
@@ -82,7 +81,7 @@ namespace Caro
         private void show_CheckedChanged(object sender, EventArgs e)
         {
             pw.UseSystemPasswordChar = !show.Checked;
-
+            repw.UseSystemPasswordChar = !show.Checked;
         }
     }
 }

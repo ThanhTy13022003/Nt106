@@ -22,7 +22,7 @@ namespace Caro
 
             FirebaseApp.Create(new AppOptions()
             {
-                Credential = GoogleCredential.FromFile("firebase-key.json") // Đổi tên file JSON nếu cần
+                Credential = GoogleCredential.FromFile("firebase-key.json") 
             });
 
             Console.WriteLine("Firebase Initialized!");

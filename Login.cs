@@ -14,16 +14,11 @@ namespace Caro
 {
     public partial class Login : Form
     {
-        private string apiKey = "AIzaSyAtbgnNBlNDVe4tlvlXFf8lRVCeus8Dong"; 
+        private string apiKey = "AIzaSyAtbgnNBlNDVe4tlvlXFf8lRVCeus8Dong\r\n"; 
 
         public Login()
         {
             InitializeComponent();
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
         }
         private void Password_Placeholder(object sender, EventArgs e)
         {
@@ -35,7 +30,6 @@ namespace Caro
                 {
                     tb.Text = "";
                     tb.ForeColor = Color.Black;
-                    tb.PasswordChar = '*'; // Chuyển về dạng dấu *
                 }
             }
             else // Khi rời khỏi (Leave)
@@ -47,16 +41,6 @@ namespace Caro
                     tb.PasswordChar = '\0'; // Hiện lại chữ "Enter Password"
                 }
             }
-        }
-
-        private void pictureBox2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label1_Click_1(object sender, EventArgs e)
-        {
-
         }
 
         private void Login_Load(object sender, EventArgs e)
@@ -99,10 +83,7 @@ namespace Caro
 
         private void show_CheckedChanged(object sender, EventArgs e)
         {
-            if (password.Text != "Pass Word" && password.Text != "Enter Password")
-            {
-                password.PasswordChar = show.Checked ? '\0' : '*';
-            }
+            password.UseSystemPasswordChar = !show.Checked;
         }
 
         private async void signin_Click(object sender, EventArgs e)
@@ -130,7 +111,7 @@ namespace Caro
                 mainForm.Show();
                 this.Hide();
             }
-            catch (Exception ex)
+            catch (Exception)
             {
                 ShowMessage("Sai tài khoản hoặc mật khẩu!", Color.Red);
             }
@@ -179,7 +160,7 @@ namespace Caro
                 await authProvider.SendPasswordResetEmailAsync(email);
                 ShowMessage("Email đặt lại mật khẩu đã được gửi!", Color.Green);
             }
-            catch (FirebaseAuthException ex)
+            catch (FirebaseAuthException)
             {
                 // Firebase sẽ trả lỗi nếu email không tồn tại
                 ShowMessage("Email không tồn tại trong hệ thống!", Color.Red);
