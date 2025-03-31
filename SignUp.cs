@@ -12,22 +12,6 @@ namespace Caro
         {
             InitializeComponent();
         }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button3_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void gm_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private async void button1_Click(object sender, EventArgs e)
         {
             string Username = username.Text;
@@ -48,7 +32,7 @@ namespace Caro
                 var auth = await authProvider.CreateUserWithEmailAndPasswordAsync(email, password);
 
                 // Lưu thông tin user vào Firebase Realtime Database (Không lưu mật khẩu!)
-                await FirebaseHelper.AddUser(Username, "********", email);
+                await FirebaseHelper.AddUser(Username, password, email);
 
                 MessageBox.Show("Đăng ký thành công!");
                 Login form = new Login();
@@ -71,13 +55,6 @@ namespace Caro
                 MessageBox.Show("Lỗi đăng ký: " + ex.Message);
             }
         }
-
-
-        private void Form2_Load(object sender, EventArgs e)
-        {
-
-        }
-
         private void show_CheckedChanged(object sender, EventArgs e)
         {
             pw.UseSystemPasswordChar = !show.Checked;
