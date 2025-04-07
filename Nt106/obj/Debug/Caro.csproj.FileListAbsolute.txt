@@ -1,0 +1,48 @@
+C:\Users\tyn93\OneDrive\Desktop\nt106_DoAnMonHoc\DoAnMonHoc\Caro\Caro\bin\Debug\Caro.exe.config
+C:\Users\tyn93\OneDrive\Desktop\nt106_DoAnMonHoc\DoAnMonHoc\Caro\Caro\bin\Debug\Caro.exe
+C:\Users\tyn93\OneDrive\Desktop\nt106_DoAnMonHoc\DoAnMonHoc\Caro\Caro\bin\Debug\Caro.pdb
+C:\Users\tyn93\OneDrive\Desktop\nt106_DoAnMonHoc\DoAnMonHoc\Caro\Caro\obj\Debug\Caro.csproj.AssemblyReference.cache
+C:\Users\tyn93\OneDrive\Desktop\nt106_DoAnMonHoc\DoAnMonHoc\Caro\Caro\obj\Debug\Caro.Form1.resources
+C:\Users\tyn93\OneDrive\Desktop\nt106_DoAnMonHoc\DoAnMonHoc\Caro\Caro\obj\Debug\Caro.Properties.Resources.resources
+C:\Users\tyn93\OneDrive\Desktop\nt106_DoAnMonHoc\DoAnMonHoc\Caro\Caro\obj\Debug\Caro.csproj.GenerateResource.cache
+C:\Users\tyn93\OneDrive\Desktop\nt106_DoAnMonHoc\DoAnMonHoc\Caro\Caro\obj\Debug\Caro.csproj.CoreCompileInputs.cache
+C:\Users\tyn93\OneDrive\Desktop\nt106_DoAnMonHoc\DoAnMonHoc\Caro\Caro\obj\Debug\Caro.exe
+C:\Users\tyn93\OneDrive\Desktop\nt106_DoAnMonHoc\DoAnMonHoc\Caro\Caro\obj\Debug\Caro.pdb
+E:\NT106\DoAn\New folder\bin\Debug\Caro.exe.config
+E:\NT106\DoAn\New folder\bin\Debug\Caro.exe
+E:\NT106\DoAn\New folder\bin\Debug\Caro.pdb
+E:\NT106\DoAn\New folder\obj\Debug\Caro.csproj.AssemblyReference.cache
+E:\NT106\DoAn\New folder\obj\Debug\Caro.Form1.resources
+E:\NT106\DoAn\New folder\obj\Debug\Caro.Properties.Resources.resources
+E:\NT106\DoAn\New folder\obj\Debug\Caro.csproj.GenerateResource.cache
+E:\NT106\DoAn\New folder\obj\Debug\Caro.csproj.CoreCompileInputs.cache
+E:\NT106\DoAn\New folder\obj\Debug\Caro.exe
+E:\NT106\DoAn\New folder\obj\Debug\Caro.pdb
+C:\Users\s3cr3t\OneDrive\Máy tính\Nt106-UI-Login-sign-up\Nt106-UI-Login-sign-up\obj\Debug\Caro.csproj.AssemblyReference.cache
+C:\Users\s3cr3t\OneDrive\Máy tính\Nt106-UI-Login-sign-up\Nt106-UI-Login-sign-up\obj\Debug\Caro.Form_game.resources
+C:\Users\s3cr3t\OneDrive\Máy tính\Nt106-UI-Login-sign-up\Nt106-UI-Login-sign-up\obj\Debug\Caro.Form_login.resources
+C:\Users\s3cr3t\OneDrive\Máy tính\Nt106-UI-Login-sign-up\Nt106-UI-Login-sign-up\obj\Debug\Caro.Properties.Resources.resources
+C:\Users\s3cr3t\OneDrive\Máy tính\Nt106-UI-Login-sign-up\Nt106-UI-Login-sign-up\obj\Debug\Caro.csproj.GenerateResource.cache
+C:\Users\s3cr3t\OneDrive\Máy tính\Nt106-UI-Login-sign-up\Nt106-UI-Login-sign-up\obj\Debug\Caro.csproj.CoreCompileInputs.cache
+C:\Users\s3cr3t\OneDrive\Máy tính\Nt106-UI-Login-sign-up\Nt106-UI-Login-sign-up\obj\Debug\Caro.exe
+C:\Users\s3cr3t\OneDrive\Máy tính\Nt106-UI-Login-sign-up\Nt106-UI-Login-sign-up\obj\Debug\Caro.pdb
+C:\Users\s3cr3t\OneDrive\Máy tính\Nt106-UI-Login-sign-up\Nt106-UI-Login-sign-up\bin\Debug\Caro.exe.config
+C:\Users\s3cr3t\OneDrive\Máy tính\Nt106-UI-Login-sign-up\Nt106-UI-Login-sign-up\bin\Debug\Caro.exe
+C:\Users\s3cr3t\OneDrive\Máy tính\Nt106-UI-Login-sign-up\Nt106-UI-Login-sign-up\bin\Debug\Caro.pdb
+C:\Users\s3cr3t\OneDrive\Máy tính\Nt106-UI-Login-sign-up\Nt106-UI-Login-sign-up\obj\Debug\Caro.Form_chatbox.resources
+C:\Users\s3cr3t\OneDrive\Máy tính\Nt106-UI-Login-sign-up\Nt106-UI-Login-sign-up\obj\Debug\Caro.Form_signup.resources
+C:\Users\s3cr3t\OneDrive\Máy tính\Nt106_UI_Login_Signup_Chatbox\Nt106\bin\Debug\Caro.exe.config
+C:\Users\s3cr3t\OneDrive\Máy tính\Nt106_UI_Login_Signup_Chatbox\Nt106\bin\Debug\Caro.exe
+C:\Users\s3cr3t\OneDrive\Máy tính\Nt106_UI_Login_Signup_Chatbox\Nt106\bin\Debug\Caro.pdb
+C:\Users\s3cr3t\OneDrive\Máy tính\Nt106_UI_Login_Signup_Chatbox\Nt106\obj\Debug\Caro.csproj.AssemblyReference.cache
+C:\Users\s3cr3t\OneDrive\Máy tính\Nt106_UI_Login_Signup_Chatbox\Nt106\obj\Debug\Caro.Form_chatbox.resources
+C:\Users\s3cr3t\OneDrive\Máy tính\Nt106_UI_Login_Signup_Chatbox\Nt106\obj\Debug\Caro.Form_game.resources
+C:\Users\s3cr3t\OneDrive\Máy tính\Nt106_UI_Login_Signup_Chatbox\Nt106\obj\Debug\Caro.Form_login.resources
+C:\Users\s3cr3t\OneDrive\Máy tính\Nt106_UI_Login_Signup_Chatbox\Nt106\obj\Debug\Caro.Properties.Resources.resources
+C:\Users\s3cr3t\OneDrive\Máy tính\Nt106_UI_Login_Signup_Chatbox\Nt106\obj\Debug\Caro.Form_signup.resources
+C:\Users\s3cr3t\OneDrive\Máy tính\Nt106_UI_Login_Signup_Chatbox\Nt106\obj\Debug\Caro.csproj.GenerateResource.cache
+C:\Users\s3cr3t\OneDrive\Máy tính\Nt106_UI_Login_Signup_Chatbox\Nt106\obj\Debug\Caro.csproj.CoreCompileInputs.cache
+C:\Users\s3cr3t\OneDrive\Máy tính\Nt106_UI_Login_Signup_Chatbox\Nt106\obj\Debug\Caro.exe
+C:\Users\s3cr3t\OneDrive\Máy tính\Nt106_UI_Login_Signup_Chatbox\Nt106\obj\Debug\Caro.pdb
+C:\Users\s3cr3t\OneDrive\Máy tính\Nt106_UI_Login_Signup_Chatbox\Nt106\obj\Debug\Caro.Form_panel.resources
+C:\Users\s3cr3t\OneDrive\Máy tính\Nt106_UI_Login_Signup_Chatbox\Nt106\obj\Debug\Caro.Form_feature.resources
