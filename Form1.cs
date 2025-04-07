@@ -26,7 +26,12 @@ namespace Caro
         {
 
         }
+
+        private void pnlChessBoard_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
         // Hàm vẽ bàn cờ
-        
+
     }
 }

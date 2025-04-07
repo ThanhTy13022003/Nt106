@@ -46,6 +46,8 @@
             this.SuspendLayout();
             // 
             // picAva
+
+
             // 
             picAva.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             picAva.BackColor = System.Drawing.SystemColors.ActiveCaption;
@@ -66,6 +68,48 @@
             this.pnlChessBoard.Name = "pnlChessBoard";
             this.pnlChessBoard.Size = new System.Drawing.Size(670, 584);
             this.pnlChessBoard.TabIndex = 0;
+            this.pnlChessBoard.Paint += new System.Windows.Forms.PaintEventHandler(this.pnlChessBoard_Paint);
+            // 
+            // panel2
+            // 
+            this.panel2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.panel2.Controls.Add(picAva);
+            this.panel2.Location = new System.Drawing.Point(725, 12);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(300, 300);
+            this.panel2.TabIndex = 1;
+            // 
+            // panel3
+            // 
+            this.panel3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.panel3.Controls.Add(this.btnLAN);
+            this.panel3.Controls.Add(this.txtIP);
+            this.panel3.Controls.Add(this.pcbMark);
+            this.panel3.Controls.Add(this.prcbCoolDown);
+            this.panel3.Controls.Add(this.txtPlayerName);
+            this.panel3.Location = new System.Drawing.Point(725, 318);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(300, 197);
+            this.panel3.TabIndex = 2;
+            // 
+            // btnLAN
+
+            // 
+            this.btnLAN.Location = new System.Drawing.Point(0, 149);
+            this.btnLAN.Name = "btnLAN";
+            this.btnLAN.Size = new System.Drawing.Size(131, 23);
+            this.btnLAN.TabIndex = 4;
+            this.btnLAN.Text = "Play";
+            this.btnLAN.UseVisualStyleBackColor = true;
+
+            // pnlChessBoard
+            // 
+            this.pnlChessBoard.BackColor = System.Drawing.SystemColors.Control;
+            this.pnlChessBoard.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.pnlChessBoard.Location = new System.Drawing.Point(12, 12);
+            this.pnlChessBoard.Name = "pnlChessBoard";
+            this.pnlChessBoard.Size = new System.Drawing.Size(670, 584);
+            this.pnlChessBoard.TabIndex = 0;
             // 
             // panel2
             // 
@@ -75,6 +119,15 @@
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(300, 300);
             this.panel2.TabIndex = 1;
+
+            // txtIP
+            // 
+            this.txtIP.Location = new System.Drawing.Point(1, 100);
+            this.txtIP.Name = "txtIP";
+            this.txtIP.Size = new System.Drawing.Size(130, 22);
+            this.txtIP.TabIndex = 3;
+            this.txtIP.Text = "127.0.0.1";
+
             // 
             // panel3
             // 
@@ -98,14 +151,14 @@
             this.btnLAN.Text = "Play";
             this.btnLAN.UseVisualStyleBackColor = true;
             // 
-            // txtIP
+            // prcbCoolDown
             // 
-            this.txtIP.Location = new System.Drawing.Point(1, 100);
-            this.txtIP.Name = "txtIP";
-            this.txtIP.Size = new System.Drawing.Size(130, 22);
-            this.txtIP.TabIndex = 3;
-            this.txtIP.Text = "127.0.0.1";
+            this.prcbCoolDown.Location = new System.Drawing.Point(0, 53);
+            this.prcbCoolDown.Name = "prcbCoolDown";
+            this.prcbCoolDown.Size = new System.Drawing.Size(131, 23);
+            this.prcbCoolDown.TabIndex = 1;
             // 
+
             // pcbMark
             // 
             this.pcbMark.BackColor = System.Drawing.SystemColors.Control;
@@ -125,6 +178,10 @@
             // 
             // txtPlayerName
             // 
+
+            // txtPlayerName
+            // 
+
             this.txtPlayerName.Location = new System.Drawing.Point(1, 3);
             this.txtPlayerName.Name = "txtPlayerName";
             this.txtPlayerName.ReadOnly = true;
